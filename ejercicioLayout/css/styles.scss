@@ -1,0 +1,95 @@
+@import "common.scss";
+@import "colors.scss";
+
+header{
+	width: 100%;
+	position: fixed;
+	background: $light-gray;
+	color: white;
+	top: 0;
+	height: 110px;
+	z-index: 100;
+	.title-wrapper{
+		height: 70px;
+		padding: 10px;
+	}
+}
+
+.link-bar{
+	width: 100%;
+	background: $dark-gray;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 40px;
+	padding: 0 10px;
+	.link-bar__list{
+		list-style: none;
+		float: left;
+		.link-bar__list-element{
+			display: inline-block;
+			&--active{
+				background: $light-gray;
+				padding: 3px;
+				border-radius: 4px;
+			}
+		}
+		
+	}
+}
+
+.content{
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 125px;
+	background: $lightest-gray;
+	display: flex;
+	padding-top: 20px; 
+	.content__right{
+		width: 33%;
+		float: right;
+	}
+	.content__left{
+		width: 65%;
+		float: left;
+	}
+	.content__left,.content__right{
+		padding: 0 5px;
+	}
+}
+
+.content-box{
+	background-color: $medium-gray;
+	margin: 10px;
+	padding: 10px;
+	p{
+		font-size: 0.9em;
+	}
+}
+
+.right__img{
+	width: 49%;
+}
+
+.right__list{
+	margin-left: 20px;
+}
+
+.post-wrapper{
+	width: 100%;
+	.post{
+		display: inline-block;
+		position: relative;
+		width: 49%;
+		padding: 10px;
+		p{
+			font-size: 0.7em;
+		}
+	}
+}
+
+
+
+
+
+

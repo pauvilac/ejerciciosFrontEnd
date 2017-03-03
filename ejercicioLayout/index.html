@@ -8,6 +8,9 @@
   <meta name="description" content="Ejercicios frontend">
   <meta name="author" content="Pau Vila">
 
+  <!-- RESETEAR ESTILOS -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <!-- ESTILOS -->
   <link rel="stylesheet" href="css/styles.css">
 
   <!--[if lt IE 9]>
@@ -17,7 +20,79 @@
 
 <body>
 
+<!-- HEADER -->
+	<header>
+		<h1 class="title-wrapper bold">Project name</h1>
+		<div class="link-bar">
+			<ul class="link-bar__list">
+				<li class="link-bar__list-element link-bar__list-element--active">Active</li>
+				<li class="link-bar__list-element">link</li>
+				<li class="link-bar__list-element">link</li>
+				<li class="link-bar__list-element">link</li>
+				<li class="link-bar__list-element">link</li>
+			</ul>
+			<div class="link-bar__input-wrapper">
+				<input type="text" class="link-bar__input-text">
+				<input type="submit" class="link-bar__button">
+			</div>
+		</div>
+	</header>
 
-  <script src="js/scripts.js"></script>
+<!-- CONTENIDO	 -->
+	<div class="content">
+		<!-- IZQUIERDO -->
+		<div class="content__left">
+			<div class="content-box">
+				<h2>TITLE</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada blandit est eget mattis. Vivamus porttitor feugiat dui, eu hendrerit lacus maximus id. Fusce convallis, quam et efficitur sollicitudin, tellus ante feugiat orci, at faucibus mi leo in elit. Aenean finibus efficitur tellus ac maximus. Vivamus consectetur, sapien in elementum lobortis, nibh lorem egestas leo, nec lobortis lacus velit id justo. Mauris libero felis, imperdiet quis tortor nec, ultrices rhoncus metus. Pellentesque consectetur nisl feugiat, aliquet quam sed, tincidunt augue. Sed dictum semper dapibus. Phasellus dolor risus, viverra id luctus at, consectetur quis justo.</p>
+			</div>
+			<div class="post-wrapper">
+				<div class="post">
+					<h3>Title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada blandit est eget mattis. Vivamus porttitor feugiat dui, eu hendrerit lacus maximus id. Fusce convallis, quam et efficitur sollicitudin, tellus ante feugiat orci, at faucibus mi leo in elit. Aenean finibus efficitur tellus ac maximus. Vivamus consectetur, sapien in elementum lobortis, nibh lorem egestas leo, nec lobortis lacus velit id justo. Mauris libero felis, imperdiet quis tortor nec, ultrices rhoncus metus. Pellentesque consectetur nisl feugiat, aliquet quam sed, tincidunt augue. Sed dictum semper dapibus. Phasellus dolor risus, viverra id luctus at, consectetur quis justo.</p>
+				</div>
+				<div class="post">
+					<h3>Title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada blandit est eget mattis. Vivamus porttitor feugiat dui, eu hendrerit lacus maximus id. Fusce convallis, quam et efficitur sollicitudin, tellus ante feugiat orci, at faucibus mi leo in elit. Aenean finibus efficitur tellus ac maximus. Vivamus consectetur, sapien in elementum lobortis, nibh lorem egestas leo, nec lobortis lacus velit id justo. Mauris libero felis, imperdiet quis tortor nec, ultrices rhoncus metus. Pellentesque consectetur nisl feugiat, aliquet quam sed, tincidunt augue. Sed dictum semper dapibus. Phasellus dolor risus, viverra id luctus at, consectetur quis justo.</p>
+				</div>
+				<div class="post">
+					<h3>Title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada blandit est eget mattis. Vivamus porttitor feugiat dui, eu hendrerit lacus maximus id. Fusce convallis, quam et efficitur sollicitudin, tellus ante feugiat orci, at faucibus mi leo in elit. Aenean finibus efficitur tellus ac maximus. Vivamus consectetur, sapien in elementum lobortis, nibh lorem egestas leo, nec lobortis lacus velit id justo. Mauris libero felis, imperdiet quis tortor nec, ultrices rhoncus metus. Pellentesque consectetur nisl feugiat, aliquet quam sed, tincidunt augue. Sed dictum semper dapibus. Phasellus dolor risus, viverra id luctus at, consectetur quis justo.</p>
+				</div>
+				<div class="post">
+					<h3>Title</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada blandit est eget mattis. Vivamus porttitor feugiat dui, eu hendrerit lacus maximus id. Fusce convallis, quam et efficitur sollicitudin, tellus ante feugiat orci, at faucibus mi leo in elit. Aenean finibus efficitur tellus ac maximus. Vivamus consectetur, sapien in elementum lobortis, nibh lorem egestas leo, nec lobortis lacus velit id justo. Mauris libero felis, imperdiet quis tortor nec, ultrices rhoncus metus. Pellentesque consectetur nisl feugiat, aliquet quam sed, tincidunt augue. Sed dictum semper dapibus. Phasellus dolor risus, viverra id luctus at, consectetur quis justo.</p>
+				</div>
+			</div>
+		</div>
+		<!-- DERECHO -->
+		<div class="content__right">
+			<h1 class="right__title">TITLE</h1>
+			<h2 class="right__subtitle">subtitle</h2>
+			<img class="right__img" src="img/sample.jpg">
+			<img class="right__img" src="img/sample.jpg">
+			<img class="right__img" src="img/sample.jpg">
+			<img class="right__img" src="img/sample.jpg">
+			<img class="right__img" src="img/sample.jpg">
+			<img class="right__img" src="img/sample.jpg">
+
+			<h2 class="right__subtitle">title</h2>
+			<ul class="right__list">
+				<li class="right__list-element">Item 1</li>
+				<li class="right__list-element">Item 2</li>
+				<li class="right__list-element">Item 3</li>
+				<li class="right__list-element">Item 4</li>
+				<li class="right__list-element">Item 5</li>
+			</ul>
+
+		</div>
+	</div>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer__info"></div>
+	</footer>
+
+  	<script src="js/scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+* {
+  box-sizing: border-box; }
+
+.bold {
+  font-weight: bold; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 20px; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.6em; }
+
+h3 {
+  font-size: 1.4em; }
+
+h4 {
+  font-size: 1.2em; }
+
+h5 {
+  font-size: 1em; }
+
+h6 {
+  font-size: 0.6em; }
+
+header {
+  width: 100%;
+  position: fixed;
+  background: #454545;
+  color: white;
+  top: 0;
+  height: 110px;
+  z-index: 100; }
+  header .title-wrapper {
+    height: 70px;
+    padding: 10px; }
+
+.link-bar {
+  width: 100%;
+  background: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  padding: 0 10px; }
+  .link-bar .link-bar__list {
+    list-style: none;
+    float: left; }
+    .link-bar .link-bar__list .link-bar__list-element {
+      display: inline-block; }
+      .link-bar .link-bar__list .link-bar__list-element--active {
+        background: #454545;
+        padding: 3px;
+        border-radius: 4px; }
+
+.content {
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 125px;
+  background: #f5f5f5;
+  display: flex;
+  padding-top: 20px; }
+  .content .content__right {
+    width: 33%;
+    float: right; }
+  .content .content__left {
+    width: 65%;
+    float: left; }
+  .content .content__left, .content .content__right {
+    padding: 0 5px; }
+
+.content-box {
+  background-color: #858585;
+  margin: 10px;
+  padding: 10px; }
+  .content-box p {
+    font-size: 0.9em; }
+
+.right__img {
+  width: 49%; }
+
+.right__list {
+  margin-left: 20px; }
+
+.post-wrapper {
+  width: 100%; }
+  .post-wrapper .post {
+    display: inline-block;
+    position: relative;
+    width: 49%;
+    padding: 10px; }
+    .post-wrapper .post p {
+      font-size: 0.7em; }
+
+/*# sourceMappingURL=styles.css.map */
